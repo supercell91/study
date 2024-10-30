@@ -1,0 +1,267 @@
+body {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .w{
+        width: 1200px;
+        margin: auto;
+    }
+    .clearfix:before,.clearfix:after {
+        content:"";
+        display:table; 
+      }
+      .clearfix:after {
+        clear:both;
+      }
+      body {
+        background-color: #f3f5f7;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .top {
+        height: 100px;
+        width: auto;
+        /* background-color: palegoldenrod; */
+    }
+
+    .logo {
+        height: 45px;
+        width: 200px;
+        /* background-image: url("img/logo.png"); */
+        background-repeat: no-repeat;
+        margin-left: 300px;
+        margin-top: 30px;
+        float: left;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .text {
+        width: 237px;
+        height: 18px;
+        font-size: 18px;
+        float: left;
+        margin-left: 70px;
+
+    }
+
+
+    .box {
+        margin-top: 42px;
+        margin-left: 30px;
+        float: left;
+    }
+
+    .box:hover {
+        border-bottom: 2px solid #00a4ff;
+    }
+
+    .box1 {
+        margin-left: 30px;
+        margin-top: 31px;
+        float: left;
+    }
+
+    .box2 {
+        float: right;
+        border: 1px solid #00a4ff;
+    }
+
+    .search {
+        text-indent: 5px;
+        width: 361px;
+        height: 42px;
+        border: 1px solid #00a4ff;
+    }
+
+    .bt {
+        border: 1px solid #00a4ff;
+        height: 40px;
+        width: 50px;
+        float: right;
+    }
+
+    .qq {
+        line-height: 30px;
+        color: #666;
+        background-repeat: no-repeat;
+        background-image: url("./img/user.png");
+        width: 118px;
+        height: 33px;
+        float: left;
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+
+    .banner {
+        height: 420px;
+        background-color: #1c036c;
+    }
+
+    .left {
+        width: 190px;
+        height: 420px;
+        background-color: #000000;
+        opacity: 0.3;
+        float: left;
+        margin-left: 300px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .left li {
+        margin-left: 28px;
+        color: white;
+    }
+
+    .left a {
+
+        width: 120px;
+        height: 364px;
+        font-family: MicrosoftYaHei;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 37px;
+        letter-spacing: 1px;
+        color: #d3d1d9;
+    }
+
+    .left a:hover {
+        color: #00b4ff;
+    }
+
+    .center {
+        width: 900px;
+        height: 420px;
+        background-image: url("./img/banner2.png");
+        background-repeat: no-repeat;
+        margin-left: -80px;
+        float: left;
+    }
+
+    .right {
+        width: 228px;
+        height: 300px;
+        /* position: relative;left: 1250px; top: 70px; */
+        background-color: white;
+        float: left;
+        margin-top: 50px;
+        /* margin-left: 1200px; */
+    }
+
+    .kebiao {
+        width: 228px;
+        height: 48px;
+        background-color: #9bceea;
+        text-align: center;
+
+    }
+
+    .kebiao li {
+        font-size: 20px;
+        line-height: 45px;
+        color: #ffffff;
+    }
+
+    .a {
+        height: 15px;
+        width: 185px;
+        /* font-size: 16px; */
+        line-height: 38px;
+    }
+
+    .b {
+        height: 50px;
+        font-size: 13px;
+        line-height: 50px;
+        color: #a5a5a5;
+    }
+
+    .c {
+        text-align: center;
+        line-height: 40px;
+        width: 200px;
+        height: 41px;
+        border: solid 1px #00a4ff;
+        margin: 3px 10px;
+        color: #00a4ff;
+    }
+
+    .first{
+        background-color: #f3f5f7;
+        width: auto;
+        height: auto;
+    }
+    .sec {
+        width: 1200px;
+        height: 60px;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 3px 0px rgba(118, 118, 118, 0.2);
+        background-color: #ffffff;
+        margin-left: 300px;
+        margin-top: 5px;
+
+    }
+
+    .sec div {
+        float: left;
+        margin-top: 21px;
+        margin-bottom: 21px;
+        margin-left: 22px;
+        margin-right: 22px;
+
+    }
+
+    .jp {
+        color: #00a4ff;
+    }
+
+    .interest {
+        /* margin-left: 100px; */
+        position: absolute;
+        right: 550px;
+    }
+
+    .interest a {
+        color: #00a4ff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
